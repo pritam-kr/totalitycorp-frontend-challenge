@@ -1,0 +1,35 @@
+
+.add{
+    background-color: #fff;
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.add div{
+    text-align: center;
+}
+
+.add div p{
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: var(--icon-color);
+}
+
+.add div img{
+    width: 80px;
+    height: 80px;
+    margin: 0 .5rem;
+}
+
+
+.add div button{
+    border: 1px solid var(--link-color);
+    border-radius: 50px;
+    padding: .8rem 1.5rem;
+    color: var(--link-color);
+    background-color: transparent;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,90 @@
+.profile {
+  border-radius: 0.5rem;
+}
+
+.profile header {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.profile header .cover {
+  position: relative;
+}
+
+.profile header img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.profile header .profile_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+
+  bottom: -3rem;
+  left: 12rem;
+  border: 2px solid #fff;
+}
+
+.profile header .user_info {
+  text-align: center;
+  margin-top: 4rem;
+
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+
+.profile header .user_info p {
+  font-size: 1.2rem;
+  color: var(--icon-color);
+}
+
+.count {
+  color: var(--link-color);
+}
+
+.views,
+.insight {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.views p,
+.insight p,
+.myItem p,
+.recent p {
+  font-size: 1.4rem;
+  color: var(--icon-color);
+  margin-bottom: 0.5rem;
+}
+
+.insight a {
+  text-decoration: underline;
+  color: var(--link-color);
+  font-size: 1.2rem;
+}
+
+.insight {
+  padding: 2rem 0;
+}
+
+.myItem {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.myItem p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.recent {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+}

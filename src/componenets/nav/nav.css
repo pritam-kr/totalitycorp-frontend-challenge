@@ -1,0 +1,82 @@
+
+nav{
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    padding: .4rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav_wrapper{
+    margin: 0 auto;
+    display: flex;
+    padding: .8rem 0;
+   
+}
+
+.nav_link_title{
+    color: var(--icon-color);
+}
+
+.nav_left_side{
+    flex: .5;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav_wrapper{
+        padding: 1rem 1rem .7rem 1rem;
+    }
+    .nav_left_side .search_bar{
+        display: none;
+    }
+
+    .post_a_job, .work, .job{
+        display: none;
+    }
+}
+
+.linkedin_icon{
+    color: var( --link-color);
+    font-size: 4rem;
+}
+.nav_right_side{
+    display: flex;
+    gap: 3rem;
+    margin-left: auto;
+}
+.nav_icons{
+    font-size: 2rem;
+}
+
+
+.nav_links{
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.notification{
+    position: relative;
+
+}
+.notification_count{
+    background-color: rgb(185, 12, 12);
+    color: var(--white-bg);
+    position: absolute;
+    top: -1rem;
+    left: 3.4rem;
+    bottom: 0rem;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 50%;
+}

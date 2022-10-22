@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Add } from "./componenets/add/add";
+import Nav from "./componenets/nav/nav";
+import { News } from "./componenets/news/news";
+import { Post } from "./componenets/post/post";
+import { Profile } from "./componenets/profile/profile";
+import { UserPost } from "./componenets/userPost/userPost";
+ 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Nav />
+
+      <main className="wrapper main_container">
+        <div className="main_left">
+        <Profile />
+        </div>
+
+        <div className="main_middle">
+          <Post />
+          <UserPost />
+        </div>
+
+        <div className="main_right">
+          <News />
+          <Add />
+          <footer>
+           <div>
+           <p>About</p>
+            <p>Accessiblity</p>
+            <p>Help Center</p>
+            <p>Advertising</p>
+            <p>Business Service</p>
+           </div>
+
+           <p>LinkedIn Corporation © 2022</p>
+          </footer>
+        </div>
+      </main>
     </div>
   );
 }
